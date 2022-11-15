@@ -1,0 +1,21 @@
+Japanese = ["こんにちは", "こんにちは", "僕たちは君を愛しています", "ありがとな", "じゃね", "じゃね"]
+
+# make empty dictionary
+translate = {}
+
+for i in Japanese:
+    if i == "こんにちは":
+        translate["こんにちは"] = "안녕"
+    elif i == "僕たちは君を愛しています":
+        translate["僕たちは君を愛しています"] = "우린 너를 사랑해"
+    elif i == "ありがとな":
+        translate["ありがとな"] = "고마워"
+    elif i == "じゃね":
+        translate["じゃね"] = "잘가"
+    else:
+        pass
+# print(translate) 
+for i in range(len(Japanese)):
+    print(translate[Japanese[i]])
+
+                   
