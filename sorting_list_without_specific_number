@@ -1,0 +1,9 @@
+def fast_track(queue): 
+    pop = list.pop(2)
+    list.sort()
+    list.insert(0, pop)
+    return list
+
+list = [30, 10, 20, 50, 40, 60] 
+
+print(fast_track(list))
